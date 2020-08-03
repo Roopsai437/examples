@@ -40,7 +40,7 @@ public class CustomerServiceImpl implements CustomerService {
 			}
 		}
 		
-		public void checkStudent(Customer customer) {
+		public void checkcustomer(Customer customer) {
 			if(customer==null) {
 				throw new InvalidArgumentException("student cant be null or empty");
 					
@@ -57,14 +57,14 @@ public class CustomerServiceImpl implements CustomerService {
 
 		@Override
 		public Customer update(Customer customer) {
-			checkStudent(customer);
+			checkcustomer(customer);
 			customer =dao.update(customer);
 		    return customer;
 		}
 
 		@Override
 		public void add(Customer customer) {
-			checkStudent(customer);
+			checkcustomer(customer);
 			dao.add(customer);
 			
 		}
