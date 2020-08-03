@@ -1,4 +1,4 @@
-package exceptions;
+package com.dxctraining.exceptions;
 
 public class InvalidArgumentException extends RuntimeException {
 	  

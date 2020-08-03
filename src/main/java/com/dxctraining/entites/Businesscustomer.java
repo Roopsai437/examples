@@ -1,4 +1,4 @@
-package entites;
+package com.dxctraining.entites;
 //import customer.Customer;
 public class Businesscustomer extends Customer  {
 	

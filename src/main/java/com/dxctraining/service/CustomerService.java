@@ -1,8 +1,9 @@
-package service;
+package com.dxctraining.service;
 
 import java.util.List;
 
-import entites.Customer;
+
+import com.dxctraining.entites.Customer;
 
 public interface CustomerService {
 	Customer findById(int id);

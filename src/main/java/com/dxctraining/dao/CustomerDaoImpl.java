@@ -1,10 +1,12 @@
-package dao;
+package com.dxctraining.dao;
+
 
 
 import java.util.*;
 
-import entites.Customer;
-import exceptions.CustomerNotFoundException;
+
+import com.dxctraining.entites.Customer;
+import com.dxctraining.exceptions.CustomerNotFoundException;
 
 public class CustomerDaoImpl implements CustomerDao {
 

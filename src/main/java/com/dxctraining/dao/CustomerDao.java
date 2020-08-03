@@ -1,8 +1,8 @@
-package dao;
+package com.dxctraining.dao;
 
 import java.util.List;
 
-import entites.Customer;
+import com.dxctraining.entites.Customer;
 
 public interface CustomerDao {
 	Customer findById(int id);

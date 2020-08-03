@@ -1,4 +1,4 @@
-package entites;
+package com.dxctraining.entites;
 
 public class Customer  {
 	private int id;

@@ -1,11 +1,12 @@
-package service;
+package com.dxctraining.service;
 
 import java.util.List;
 
-import dao.CustomerDao;
-import dao.CustomerDaoImpl;
-import entites.Customer;
-import exceptions.InvalidArgumentException;
+
+import com.dxctraining.dao.CustomerDao;
+import com.dxctraining.dao.CustomerDaoImpl;
+import com.dxctraining.entites.Customer;
+import com.dxctraining.exceptions.InvalidArgumentException;
 
 public class CustomerServiceImpl implements CustomerService {
 

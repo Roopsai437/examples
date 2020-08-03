@@ -1,14 +1,14 @@
-package customerui;
+package com.dxctraining.customerui;
 
-import service.CustomerService;
-import service.CustomerServiceImpl;
+import com.dxctraining.service.CustomerService;
+import com.dxctraining.service.CustomerServiceImpl;
 import java.util.List;
-import entites.Businesscustomer;
-import entites.Customer;
-import entites.Account;
-import entites.Regularcustomer;
-import exceptions.CustomerNotFoundException;
-import exceptions.InvalidArgumentException;
+import com.dxctraining.entites.Businesscustomer;
+import com.dxctraining.entites.Customer;
+import com.dxctraining.entites.Account;
+import com.dxctraining.entites.Regularcustomer;
+import com.dxctraining.exceptions.CustomerNotFoundException;
+import com.dxctraining.exceptions.InvalidArgumentException;
 
 public class CustomerMain {
 	CustomerService service = new CustomerServiceImpl();
